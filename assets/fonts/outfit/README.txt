@@ -4,7 +4,6 @@ Outfit Variable Font
 This download contains Outfit as both a variable font and static fonts.
 
 Outfit is a variable font with this axis:
-  wght
 
 This means all the styles are contained in a single file:
   Outfit-VariableFont_wght.ttf
