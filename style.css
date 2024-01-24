@@ -78,6 +78,38 @@ section {
   padding: 0 1rem;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+caption {
+  margin-bottom: 1em;
+}
+
+td,
+th {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0.5em;
+}
+
+td {
+  font-weight: 700;
+  color: var(--liver);
+}
+
+th {
+  font-weight: 400;
+  text-align: start;
+  padding-inline-start: 2em;
+}
+
+.recipe__content > :nth-child(1n + 3):not(:last-child) {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+
 ::marker {
   color: var(--marker-color);
   font-weight: 700;
@@ -105,6 +137,10 @@ section {
   padding: 1rem;
 }
 
+.recipe__content {
+  padding: 1rem;
+}
+
 .call-out {
   background-color: var(--bg-highlight);
   border-radius: var(--border-radius-sm);
@@ -116,39 +152,13 @@ section {
   color: var(--title-secondary-color);
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-caption {
-  margin-bottom: 1em;
-}
-
-td,
-th {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  padding: 0.5em;
-}
-
-td {
-  font-weight: 700;
-  color: var(--liver);
-}
-
-th {
-  font-weight: 400;
-  text-align: start;
-  padding-inline-start: 2em;
-}
-
 @media (min-width: 700px) {
   body {
     padding: 4rem;
   }
   .recipe {
     border-radius: var(--border-radius-md);
-    padding: 3rem;
+    padding: 2rem;
   }
   .recipe__image {
     border-radius: var(--border-radius-sm);
